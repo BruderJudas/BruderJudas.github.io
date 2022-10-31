@@ -4,23 +4,17 @@
     <title>Umfrage</title>
 </head>
 <body>
-        <p id="test">Namme</p>
+        <p id="test">Name</p>
         <textarea id="text" name="text" cols="35" rows="4"></textarea> 	
-        <button onclick="closeWindow()">Fertig!</button>
+        <button onclick="doSomething();window.close();">Fertig!</button>
         
 
         <script>
             function doSomething(){
                 document.getElementById("test").innerHTML = "Danke!";
-               "self.close()"
             }
         </script>
     
 </body>
 </html>
-<script language="javascript">
-function closeWindow()
-{
-window.close();
-}
-</script>
+
