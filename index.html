@@ -1,14 +1,19 @@
+
 <html>
-  <head>
-    <title>My Homepage</title>
-  </head>
+<head>
+    <title>Umfrage</title>
+</head>
+<body>
+        <a href="https://www.google.com">
+            <button onclick="doSomething()" style="background-color:#333333;color:#00FF00;border-radius:5px">Fertig!</button>
+        </a>
+        
+        <p id="test">Name</p>
 
-
-  <body>
-    <h1>Anmeldung!</h1>
-
-  </body>
-  <textarea cols="35" rows="4"> 
-  </textarea> 
-  <button type="button">Fertig!!</button>
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Danke!";
+            }
+        </script>
+</body>
 </html>
